@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Safety Tracker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="begin_tracking">Begin tracking</string>
+    <string name="setup">SETUP</string>
+    <string name="message">Safety Tracker v0.1 \nSafety tracker is a non-intrusive solution for keeping track of your movement using your phone, should you decide take a step outside for a couple of hours or visit the mall. \n\nIt is a solution born out of necessity, if you are familiar with the current state of things in Nigeria. \nYou can enter up to 3 email addresses of people who will have access to your location history logs should anything happen to you. [You’ll have to notify them yourself that you did.]. You only need to setup once, subsequent information can be altered as you please. Your location history is available on the web client. \n\nInformation about your location history will be cleared on request or you can clear it yourself by using the “PURGE TRACKING SESSION” button. \nNote that after using this, your current location history is lost forever until you start another tracking session.</string>
+    <string name="i_agree_with_whatever_you_said">I agree with whatever you said</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="_3rd_email_address">3rd Email Address</string>
+    <string name="_2nd_email_address">2nd Email Address</string>
+    <string name="_1st_email_address">1st Email Address</string>
+    <string name="s_tracking">START TRACKING</string>
+    <string name="keep_the_4_digit_number_below_safe_it_ll_be_used_by_your_authenticated_trackers_to_access_your_location_history">Keep the 4 digit number below safe. It\'ll be used by your authenticated trackers to access your location history on the web. Emails will be sent to your registered email addresses but You should send them this number just in case. :).</string>
+    <string name="stop_tracking_session">STOP TRACKING SESSION</string>
+    <string name="purge_tracking_session">PURGE TRACKING SESSION</string>
+    <string name="status_tracking">STATUS: TRACKING</string>
+</resources>

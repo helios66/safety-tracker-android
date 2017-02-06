@@ -1,0 +1,74 @@
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.frln.h66.friendtracker.fragments.HomeFragment">
+
+
+    <ScrollView
+        android:layout_above="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/message"
+            android:gravity="center"
+            android:textAlignment="center"
+            />
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/layout"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/actionButton"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="@string/i_agree_with_whatever_you_said"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="14sp"/>
+
+        <Switch
+            android:id="@+id/switchOk"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/actionButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/button_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/setup"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        />
+</RelativeLayout>
