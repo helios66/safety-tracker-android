@@ -11,6 +11,7 @@ using the passkey generated when initiating a tracking session.
 **Screenshots**
 
 ![One](images/1.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhelios66%2Fsafety-tracker-android.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhelios66%2Fsafety-tracker-android?ref=badge_shield)
 
 ![Two](images/2.png)
 
@@ -30,3 +31,7 @@ Contributions
 
 Interested in maintaining or want to use some components? Contact me 👆🏾
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhelios66%2Fsafety-tracker-android.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhelios66%2Fsafety-tracker-android?ref=badge_large)
